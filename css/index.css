@@ -287,3 +287,23 @@ footer {
     text-align: center;
     font-size: 14px;
 }
+
+@media (max-width: 800px) {
+    .cta img {
+        display: none;
+    }
+    .cta {
+        display: flex;
+        width: 100%;
+    }
+    .cta .cta-text {
+        justify-content: center;
+        margin: auto;
+        padding: 0px;
+    }
+    .cta .cta-text button {
+        margin-top: 6px;
+        padding: 8px 44px;
+        font-size: 17px;
+    }
+}
